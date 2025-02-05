@@ -80,8 +80,6 @@ class HexagonClipper extends CustomClipper<Path>{
   bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
    return true;
   }
-
-
 }
 
 class Labels extends StatelessWidget {
@@ -208,6 +206,7 @@ class Labels extends StatelessWidget {
     ) ;
   }
 }
+
 class HexagonPainter extends CustomPainter {
 
 
